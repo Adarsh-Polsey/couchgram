@@ -1,0 +1,18 @@
+# Secrets: Telegram API keys and the release signing key never go in git
+telegram.properties
+keystore.properties
+*.jks
+*.keystore
+
+local.properties
+.gradle/
+build/
+app/build/
+.idea/
+*.iml
+.kotlin/
+.cxx/
+.DS_Store
+
+# App data pulled off a device with adb (it holds the Telegram session)
+*.tar

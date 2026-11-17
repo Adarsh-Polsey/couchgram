@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Couchgram</string>
+
+    <!-- Connection -->
+    <string name="status_connecting">Connecting to Telegram…</string>
+    <string name="status_waiting_network">Waiting for network…</string>
+    <string name="status_updating">Updating…</string>
+    <string name="status_loading_more">Loading more…</string>
+
+    <!-- Sign-in -->
+    <string name="login_title">Sign in to Telegram</string>
+    <string name="login_step_open">Open Telegram on your phone</string>
+    <string name="login_step_link">Go to Settings → Devices → Link Desktop Device</string>
+    <string name="login_step_scan">Point the camera at this code</string>
+    <string name="login_code_refreshes">The code refreshes on its own every 30 seconds.</string>
+    <string name="login_qr_description">Telegram sign-in code</string>
+    <string name="login_slow_title">Telegram is slow to answer</string>
+    <string name="login_slow_body">The sign-in code hasn’t arrived yet. Check the TV’s Wi-Fi, then ask for a new code.</string>
+    <string name="login_new_code">Get a new code</string>
+    <string name="login_offline_title">Can’t reach Telegram</string>
+    <string name="login_offline_body">Check that the TV is on Wi-Fi. The sign-in code appears as soon as the connection is back.</string>
+    <string name="login_signing_out">Signing out…</string>
+    <string name="login_unsupported_title">Finish signing in on your phone</string>
+    <string name="login_unsupported_body">Telegram asked for a step this TV can’t show. Finish it in Telegram on your phone, or start over with a new code.</string>
+    <string name="login_start_over">Start over</string>
+
+    <!-- Two-step verification -->
+    <string name="password_title">Enter your cloud password</string>
+    <string name="password_body">Your account uses two-step verification. Enter the password you set in Telegram.</string>
+    <string name="password_hint">Hint: %1$s</string>
+    <string name="password_label">Password</string>
+    <string name="password_show">Show password</string>
+    <string name="password_hide">Hide password</string>
+    <string name="password_submit">Sign in</string>
+    <string name="password_checking">Checking…</string>
+    <string name="password_empty">Enter your password first.</string>
+    <string name="password_wrong">Wrong password. Check it and try again.</string>
+    <string name="password_too_many">Too many attempts. Wait a few minutes, then try again.</string>
+    <string name="password_failed">Couldn’t check the password (%1$s). Try again.</string>
+
+    <!-- Library -->
+    <plurals name="library_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <string name="library_refresh">Refresh</string>
+    <string name="library_sign_out">Sign out</string>
+    <string name="video_untitled">Untitled video</string>
+    <plurals name="library_minutes_left">
+        <item quantity="one">%d min left</item>
+        <item quantity="other">%d min left</item>
+    </plurals>
+    <string name="library_hours_left">%1$d h %2$d min left</string>
+    <string name="library_watched">✓ Watched</string>
+    <string name="resume_body">You stopped at %1$s of %2$s.</string>
+    <string name="resume_action">Resume from %1$s</string>
+    <string name="resume_start_over">Start over</string>
+    <string name="library_too_big">Over %1$s</string>
+    <string name="rail_pinned">Pinned</string>
+    <string name="rail_watching">Watching</string>
+    <string name="rail_latest">Latest</string>
+    <string name="rail_favourites">Favourites</string>
+    <string name="favourites_empty">React to a video in the channel, pin it, or save it to Saved Messages, and it shows up here.</string>
+    <string name="card_pinned">Pinned</string>
+    <string name="card_new">New</string>
+    <string name="card_more_languages">%1$s +%2$d</string>
+    <string name="favourite_pinned">Pinned</string>
+    <string name="favourite_reacted">Reacted</string>
+    <string name="favourite_saved">Saved</string>
+    <string name="details_subtitles">Subtitles</string>
+    <string name="details_added">Added %1$s</string>
+    <string name="duration_hours">%1$d h %2$d min</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="library_empty_title">No videos in %1$s yet</string>
+    <string name="library_empty_body">Upload a video to the channel from your phone, then press Refresh.</string>
+    <string name="library_missing_title">Can’t open your channel</string>
+    <string name="library_missing_body">This Telegram account can’t see the channel this TV was set to any more: it was deleted, or the account left it. Choose another one, or sign out and sign in with the account that has it.</string>
+    <string name="library_timeout_title">Telegram didn’t answer</string>
+    <string name="library_timeout_body">Check the TV’s Wi-Fi, then try again.</string>
+    <string name="library_failed_title">Couldn’t load the videos</string>
+    <string name="library_failed_body">Telegram refused the request (%1$s). Try again in a minute.</string>
+    <string name="action_try_again">Try again</string>
+    <string name="action_choose_channel">Choose a channel</string>
+
+    <!-- Channel picker -->
+    <string name="picker_title">Choose your channel</string>
+    <string name="picker_body">Pick the Telegram channel or group that holds your videos. You can change it later in Settings.</string>
+    <string name="picker_loading">Loading your channels and groups…</string>
+    <string name="picker_channel">Channel</string>
+    <string name="picker_group">Group</string>
+    <string name="picker_your_channel">Your channel</string>
+    <string name="picker_your_group">Your group</string>
+    <string name="picker_untitled">Untitled chat</string>
+    <string name="picker_empty_title">No channels or groups yet</string>
+    <string name="picker_empty_body">Create a private channel in Telegram on your phone and upload a video to it, then press Refresh.</string>
+    <string name="picker_failed_title">Couldn’t load your chats</string>
+    <string name="picker_failed_body">Telegram refused the request (%1$s). Try again in a minute.</string>
+
+    <!-- Settings -->
+    <string name="settings_button">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_channel">Channel</string>
+    <string name="settings_change_channel">Change channel</string>
+    <string name="settings_phone_remote">Phone remote</string>
+    <string name="settings_on">On</string>
+    <string name="settings_off">Off</string>
+    <string name="settings_turn_on">Turn on</string>
+    <string name="settings_turn_off">Turn off</string>
+    <string name="settings_phone_remote_body">Control the TV from the channel: reply /play to a video, or send /stop, /storage or /clearcache. The TV answers there and posts crash reports. Needs permission to post in the channel.</string>
+
+    <!-- Storage -->
+    <string name="storage_button">Storage</string>
+    <string name="storage_free_short">%1$s free</string>
+    <string name="storage_title">Storage on this TV</string>
+    <string name="storage_loading">Checking storage…</string>
+    <string name="storage_free_line">%1$s free of %2$s</string>
+    <string name="storage_low">Less than %1$s free: videos won’t stream until you clear the cache or free up space.</string>
+    <string name="storage_cache_line">Video cache: %1$s</string>
+    <string name="storage_clear">Clear cache</string>
+    <string name="storage_clearing">Clearing…</string>
+    <string name="storage_cleared">Cleared %1$s.</string>
+    <string name="storage_already_empty">The cache was already empty.</string>
+    <string name="action_close">Close</string>
+    <plurals name="storage_resume">
+        <item quantity="one">Kept for resume: %1$d video · %2$s</item>
+        <item quantity="other">Kept for resume: %1$d videos · %2$s</item>
+    </plurals>
+    <string name="report_posted">Storage posted to %1$s at %2$s.</string>
+    <string name="report_failed">Couldn’t post storage to %1$s (%2$s).</string>
+    <!-- Channel posts (phone remote only): one line each -->
+    <string name="report_storage">💾 TV storage · %1$s free of %2$s · cache %3$s</string>
+    <string name="report_playing">▶️ Playing %1$s on the TV</string>
+    <string name="report_play_hint">Reply to a video with /play to play it on the TV.</string>
+    <string name="report_stopped">⏹ Back to the library</string>
+    <string name="report_not_open">Open Couchgram on the TV first, then send /play again.</string>
+    <string name="report_cleared">🧹 Cache cleared · freed %1$s · %2$s free now</string>
+    <string name="report_already_clear">🧹 Cache was already empty · %1$s free</string>
+    <string name="report_clear_while_playing">A video is playing. Send /stop first, then /clearcache.</string>
+    <string name="report_crash">💥 Crash v%1$s · %2$s · %3$s</string>
+
+    <!-- Sign-out confirmation -->
+    <string name="sign_out_title">Sign out of Telegram on this TV?</string>
+    <string name="sign_out_body">The library closes until you scan the code again. Your Telegram account and your channel aren’t affected.</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Player -->
+    <string name="player_loading">Loading from Telegram…</string>
+    <string name="player_paused">Paused</string>
+    <string name="player_hint">◀ ▶ jump (hold to go faster) · OK pause · ▲ picture, audio, subtitles</string>
+    <string name="options_title">Playback options</string>
+    <string name="options_picture">Picture</string>
+    <string name="options_audio">Audio</string>
+    <string name="options_subtitles">Subtitles</string>
+    <string name="picture_fit">Fit</string>
+    <string name="picture_fill">Fill screen</string>
+    <string name="picture_stretch">Stretch</string>
+    <string name="subtitles_off">Off</string>
+    <string name="subtitles_forced">forced</string>
+    <string name="audio_mono">Mono</string>
+    <string name="audio_stereo">Stereo</string>
+    <string name="audio_channels">%1$d ch</string>
+    <string name="track_unnamed">Unnamed track</string>
+    <string name="player_seek_ahead">+%1$s</string>
+    <string name="player_seek_back">−%1$s</string>
+    <string name="player_seek_instant">Plays instantly: this part is already on the TV</string>
+    <string name="player_seek_load">This part loads from Telegram (a few seconds)</string>
+    <string name="player_loading_progress">Loading from Telegram · %1$s</string>
+    <string name="player_too_big">This video is %1$d×%2$d. This TV plays up to %3$s, so it may stutter.</string>
+    <string name="player_decoder_title">This video can’t play on this TV</string>
+    <string name="player_decoder_body">This TV plays H.264, HEVC and VP9 up to %1$s. Upload a version within that to the channel.</string>
+    <string name="player_network_title">Lost the connection to Telegram</string>
+    <string name="player_network_body">Check the TV’s Wi-Fi, then try again. Playback picks up where it stopped.</string>
+    <string name="player_format_title">This file type can’t play</string>
+    <string name="player_format_body">Export the video as MP4 (H.264 or HEVC) and upload it again.</string>
+    <string name="player_other_title">Playback stopped</string>
+    <string name="player_other_body">The player reported %1$s. Try again, or go back to the library.</string>
+    <string name="player_space_title">Not enough space to stream</string>
+    <string name="player_space_body">This TV has %1$s free; streaming needs about %2$s. Clearing the cache usually frees enough.</string>
+    <string name="action_clear_and_play">Clear cache and play</string>
+    <string name="action_back_to_library">Back to library</string>
+</resources>

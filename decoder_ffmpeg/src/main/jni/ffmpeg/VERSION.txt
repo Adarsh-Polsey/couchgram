@@ -1,0 +1,2 @@
+FFmpeg 573f2b8 (2026-10-21, branch release/6.0)
+built with: ./build_ffmpeg.sh <module> <ndk 28.2.13676358> darwin-x86_64 25 ac3 eac3
